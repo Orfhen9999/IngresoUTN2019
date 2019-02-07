@@ -16,9 +16,9 @@ alert("el resultado de la suma es  :"+resultado);
 
 function restar()
 {
-    
-num1=parseInt(document.getElementById("numeroUno").value);
-num2=parseInt(document.getElementById("numeroDos").value);
+    //Aca parseInt no es necesario
+num1=(document.getElementById("numeroUno").value);
+num2=(document.getElementById("numeroDos").value);
 resultado=(num1-num2);
 
 alert("el resultado es:  "+resultado);

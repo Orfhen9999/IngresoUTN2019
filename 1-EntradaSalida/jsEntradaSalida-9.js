@@ -1,13 +1,21 @@
 /*Debemos lograr tomar el importe por ID ,
 transformarlo a entero (parseInt), luego
-mostrar el importe con un aumento del 10 %
+mostrar por ventana emergente el AUMENTO Y  el nuevo sueldo con un aumento del 10 %
 en el cuadro de texto "RESULTADO".*/
 function MostrarAumento()
 {
 var sueldo;
-sueldo = parseInt(document.getElementById("sueldo").value);
-resultado = (sueldo*10)/100+sueldo;
-document.getElementById("resultado").value = resultado;
+var aumento;
+var nuevosueldo;
+sueldo=parseInt(document.getElementById("sueldo").value);
+aumento=(sueldo*10)/100;
+nuevosueldo=(sueldo+aumento);
+alert("el aumento es de $  "+aumento);
+document.getElementById("resultado").value=nuevosueldo;
+
+
+
+
 
 
 
