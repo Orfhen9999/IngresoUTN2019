@@ -1,6 +1,6 @@
 function Mostrar()
 {
-	alert('iteración while');
+	alert('iteración while POR CONSOLA');
 var num;
 num = 11;
 while(num > 1){

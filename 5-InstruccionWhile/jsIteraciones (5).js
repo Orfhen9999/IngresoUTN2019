@@ -1,10 +1,11 @@
 function Mostrar()
 {
 
-var sexo = prompt("ingrese f ó m .");
+var sexo = (prompt("ingrese f ó m .").toLowerCase());
 while(sexo != "f" && sexo != "m" ){
 
-    sexo = prompt("dato invalido. ingrese f o m ");
+    sexo = (prompt("dato invalido. ingrese f o m ").toLowerCase());
+   
 }
 
 
